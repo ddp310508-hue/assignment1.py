@@ -53,19 +53,19 @@ print("After Updating 102 to 'Robert':", students_dict)
 del students_dict[103]
 print("After Deleting 103:", students_dict)
 
-Output:
---- List Operations (Mutable Student Roll Numbers) ---
-Initial List: [101, 102, 103]
-After Append (Add): [101, 102, 103, 104]
-After Update (Index 1 changed to 120): [101, 120, 103, 104]
-After Remove (Delete 103): [101, 120, 104]
+#Output:
+#--- List Operations (Mutable Student Roll Numbers) ---
+#Initial List: [101, 102, 103]
+#After Append (Add): [101, 102, 103, 104]
+#After Update (Index 1 changed to 120): [101, 120, 103, 104]
+#After Remove (Delete 103): [101, 120, 104]
 
---- Tuple Operations (Immutable Student ID) ---
-Initial Tuple: (5001, 5002, 5003)
-After Add, Update, and Delete operations: (5555, 5003, 5004)
+#--- Tuple Operations (Immutable Student ID) ---
+#Initial Tuple: (5001, 5002, 5003)
+#After Add, Update, and Delete operations: (5555, 5003, 5004)
 
---- Dictionary Operations (Student Roll No -> Name) ---
-Initial Dictionary: {101: 'Alice', 102: 'Bob', 103: 'Charlie'}
-After Adding 104: {101: 'Alice', 102: 'Bob', 103: 'Charlie', 104: 'David'}
-After Updating 102 to 'Robert': {101: 'Alice', 102: 'Robert', 103: 'Charlie', 104: 'David'}
-After Deleting 103: {101: 'Alice', 102: 'Robert', 104: 'David'}
+#--- Dictionary Operations (Student Roll No -> Name) ---
+#Initial Dictionary: {101: 'Alice', 102: 'Bob', 103: 'Charlie'}
+#After Adding 104: {101: 'Alice', 102: 'Bob', 103: 'Charlie', 104: 'David'}
+#After Updating 102 to 'Robert': {101: 'Alice', 102: 'Robert', 103: 'Charlie', 104: 'David'}
+#After Deleting 103: {101: 'Alice', 102: 'Robert', 104: 'David'}
